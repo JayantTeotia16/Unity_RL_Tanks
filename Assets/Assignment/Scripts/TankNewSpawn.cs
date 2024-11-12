@@ -62,4 +62,11 @@ public class TankNewSpawn : MonoBehaviour
         timeStart1 = 0f;
         timeStart2 = 0f;
     }
+
+    public void DestroyOneTank(Transform child)
+    {
+        Destroy(child.gameObject);
+            
+        
+    }
 }
